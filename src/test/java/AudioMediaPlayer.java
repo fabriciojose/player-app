@@ -16,9 +16,6 @@ import javafx.stage.Stage;
 
 public class AudioMediaPlayer extends Application {
 
-	
-
-	
 	public static void main(String[] args) {
 
 		launch(args);
@@ -146,8 +143,6 @@ public class AudioMediaPlayer extends Application {
 					
 					Status status = mediaPlayer.getStatus();
 					
-					System.out.println(status);
-				
 					if (status == Status.PAUSED || status == Status.READY || status == Status.STOPPED) { 
 						mediaPlayer.play();
 						btn_Play_Musica.setGraphic(imageViewPlay);
@@ -157,8 +152,6 @@ public class AudioMediaPlayer extends Application {
 						btn_Play_Musica.setGraphic(imgView_Pause_Musica);
 					}
 					
-					
-				
 				});
 				
 				
