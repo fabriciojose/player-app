@@ -38,7 +38,6 @@ public class AudioMediaPlayer extends Application {
 				Label lbl_Tocando_Artista = new Label("TOCANDO O ARTISTA");
 				Label lbl_Nome_Artista1 = new Label("BIA SOCEK");
 
-				
 				Image img_Album = new Image(getClass().getResourceAsStream("/images/biaSocek.jpeg"));
 				ImageView imgView_Album = new ImageView(img_Album);
 				
